@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiSig Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="glass-container">
+        <h1>MultiSig Wallet</h1>
+        <div class="info-box">
+            <h2>🔹 Project Title</h2>
+            <p id="projectTitle">Fetching...</p>
+        </div>
+        <div class="info-box">
+            <h2>📝 Project Description</h2>
+            <p id="projectDescription">Fetching...</p>
+        </div>
+        <div class="update-section">
+            <input type="text" id="newDescription" placeholder="Enter new description">
+            <button onclick="updateDescription()">Update</button>
+        </div>
+        <div class="status-box">
+            <p id="statusMessage"></p>
+        </div>
+    </div>
+</body>
+</html>
